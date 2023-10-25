@@ -27,6 +27,17 @@ class paiementc
 		}
 
     }
+	function getlastCMD(){
+        $sql="SELECT id FROM commande ORDER BY id DESC LIMIT 1";
+        $db = config::getConnexion();
+        try{
+            $liste = $db->query($sql);
+            return $liste;
+        }
+        catch(Exception $e){
+            echo 'Erreur: '.$e->getMessage();
+        }
+    }
     function addpaiement($paiement)
 	{
 		$sql = "INSERT INTO paiement (cin,fn, ln, email, mobile , info ) 
