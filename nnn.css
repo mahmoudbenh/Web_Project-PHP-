@@ -1,0 +1,114 @@
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 3rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.bg-grey {
+  background-color: #000000;
+}
+
+@media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+.link {
+  background: #f73333;
+  color: #fff;
+  position: relative;
+  border-radius: 50px;
+  margin: 20px;
+  width: fit-content;
+  text-decoration: 0;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.ay {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+}
+.id_product {
+  text-align: center;
+  text-decoration: 0;
+  background-color: #04ed04;
+  letter-spaidg: 1px;
+  color: #fff;
+
+  border-radius: 6px;
+}
+.panier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.panier img {
+  width: 40px;
+  padding: 8px 0;
+}
+.panier section {
+  width: 50%;
+  background-color: rgb(204, 143, 94);
+  padding: 10px;
+  border-radius: 6px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  letter-spaidg: 1px;
+  font-size: 13px;
+}
+th {
+  padding: 10px 0;
+  font-weight: 400;
+}
+td {
+  border-top: 0.5px solid #999;
+  text-align: center;
+  color: #37a6ff;
+}
+tr {
+  border-bottom: 0.5px solid #999;
+}
+
+.total th {
+  border: 0;
+  float: left;
+  font-weight: 500;
+  color: #37a6ff;
+  padding: 10px;
+}
+.h3 {
+  color: black;
+}
