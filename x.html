@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Display</title>
+</head>
+
+<body>
+    <a href="ListClients.php">Back to list </a>
+    <hr>
+
+    <div id="error">
+        <?php echo $error; ?>
+    </div>
+
+    <form action="" method="POST">
+        <table border="1" align="center">
+
+            <tr>
+                <td>
+                    <label for="fn">First Name:
+                    </label>
+                </td>
+                <td><input type="text" name="fn" id="fn" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ln">Last Name:
+                    </label>
+                </td>
+                <td><input type="text" name="ln" id="ln" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">email:
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobile">mobile:
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="mobile" id="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="info">info:
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="info" id="info">
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <input type="submit" value="Save">
+                </td>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
